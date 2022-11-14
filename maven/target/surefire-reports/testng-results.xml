@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-18T04:56:44Z" name="Command line suite" finished-at="2022-08-18T04:56:44Z" duration-ms="10">
+    <groups>
+    </groups>
+    <test started-at="2022-08-18T04:56:44Z" name="Command line test" finished-at="2022-08-18T04:56:44Z" duration-ms="10">
+      <class name="Mahiselenium.maven.SeleniumTest">
+        <test-method signature="BrowserAUtomation()[pri:0, instance:Mahiselenium.maven.SeleniumTest@67205a84]" started-at="2022-08-18T10:26:44Z" name="BrowserAUtomation" finished-at="2022-08-18T10:26:44Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAUtomation -->
+        <test-method signature="elementsUi()[pri:0, instance:Mahiselenium.maven.SeleniumTest@67205a84]" started-at="2022-08-18T10:26:44Z" name="elementsUi" finished-at="2022-08-18T10:26:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsUi -->
+      </class> <!-- Mahiselenium.maven.SeleniumTest -->
+      <class name="Mahiselenium.maven.RESTAPITest">
+        <test-method signature="deleteTwitter()[pri:0, instance:Mahiselenium.maven.RESTAPITest@4f063c0a]" started-at="2022-08-18T10:26:44Z" name="deleteTwitter" finished-at="2022-08-18T10:26:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+        <test-method signature="postJira()[pri:0, instance:Mahiselenium.maven.RESTAPITest@4f063c0a]" started-at="2022-08-18T10:26:44Z" name="postJira" finished-at="2022-08-18T10:26:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJira -->
+      </class> <!-- Mahiselenium.maven.RESTAPITest -->
+      <class name="Mahiselenium.maven.AppiumTest">
+        <test-method signature="IOSApps()[pri:0, instance:Mahiselenium.maven.AppiumTest@1e6d1014]" started-at="2022-08-18T10:26:44Z" name="IOSApps" finished-at="2022-08-18T10:26:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSApps -->
+      </class> <!-- Mahiselenium.maven.AppiumTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

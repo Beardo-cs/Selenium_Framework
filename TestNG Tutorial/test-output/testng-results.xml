@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="12" passed="3" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-11T08:53:35 IST" name="Suite" finished-at="2022-08-11T08:53:35 IST" duration-ms="114">
+    <groups>
+      <group name="smoke">
+        <method signature="Basics1.secondTest()[pri:0, instance:TestPackage.Basics1@197d671]" name="secondTest" class="TestPackage.Basics1"/>
+      </group> <!-- smoke -->
+      <group name="Smoke">
+        <method signature="Basics3.MobileLogincarLoan()[pri:0, instance:TestPackage.Basics3@71b1176b]" name="MobileLogincarLoan" class="TestPackage.Basics3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-08-11T08:53:35 IST" name="AllBasicsexcept3only" finished-at="2022-08-11T08:53:35 IST" duration-ms="45">
+      <class name="TestPackage.Basics2">
+        <test-method is-config="true" signature="Homeloan()[pri:0, instance:TestPackage.Basics2@1198b989]" started-at="2022-08-11T08:53:35 IST" name="Homeloan" finished-at="2022-08-11T08:53:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homeloan -->
+      </class> <!-- TestPackage.Basics2 -->
+      <class name="TestPackage.Basics1">
+        <test-method is-config="true" signature="bfclass()[pri:0, instance:TestPackage.Basics1@197d671]" started-at="2022-08-11T08:53:35 IST" name="bfclass" finished-at="2022-08-11T08:53:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfclass -->
+        <test-method is-config="true" signature="bfmethos()[pri:0, instance:TestPackage.Basics1@197d671]" started-at="2022-08-11T08:53:35 IST" name="bfmethos" finished-at="2022-08-11T08:53:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfmethos -->
+        <test-method signature="secondTest()[pri:0, instance:TestPackage.Basics1@197d671]" started-at="2022-08-11T08:53:35 IST" name="secondTest" finished-at="2022-08-11T08:53:35 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method is-config="true" signature="afmethod(java.lang.String,java.lang.String)[pri:0, instance:TestPackage.Basics1@197d671]" started-at="2022-08-11T08:53:35 IST" name="afmethod" finished-at="2022-08-11T08:53:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.google.com/firstparam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afmethod -->
+        <test-method signature="thirdTest()[pri:0, instance:TestPackage.Basics1@197d671]" started-at="2022-08-11T08:53:35 IST" name="thirdTest" finished-at="2022-08-11T08:53:35 IST" depends-on-methods="TestPackage.Basics1.secondTest" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+        <test-method is-config="true" signature="bfmethos()[pri:0, instance:TestPackage.Basics1@197d671]" started-at="2022-08-11T08:53:35 IST" name="bfmethos" finished-at="2022-08-11T08:53:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfmethos -->
+        <test-method is-config="true" signature="afmethod(java.lang.String,java.lang.String)[pri:0, instance:TestPackage.Basics1@197d671]" started-at="2022-08-11T08:53:35 IST" name="afmethod" finished-at="2022-08-11T08:53:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.google.com/firstparam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afmethod -->
+        <test-method is-config="true" signature="demo()[pri:0, instance:TestPackage.Basics1@197d671]" started-at="2022-08-11T08:53:35 IST" name="demo" finished-at="2022-08-11T08:53:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="afclass()[pri:0, instance:TestPackage.Basics1@197d671]" started-at="2022-08-11T08:53:35 IST" name="afclass" finished-at="2022-08-11T08:53:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afclass -->
+      </class> <!-- TestPackage.Basics1 -->
+    </test> <!-- AllBasicsexcept3only -->
+    <test started-at="2022-08-11T08:53:35 IST" name="Basics3only" finished-at="2022-08-11T08:53:35 IST" duration-ms="24">
+      <class name="TestPackage.Basics3">
+        <test-method is-config="true" signature="Bfsuite()[pri:0, instance:TestPackage.Basics3@71b1176b]" started-at="2022-08-11T08:53:35 IST" name="Bfsuite" finished-at="2022-08-11T08:53:35 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfsuite -->
+        <test-method is-config="true" signature="befoclas()[pri:0, instance:TestPackage.Basics3@71b1176b]" started-at="2022-08-11T08:53:35 IST" name="befoclas" finished-at="2022-08-11T08:53:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befoclas -->
+        <test-method signature="MobileLogincarLoan()[pri:0, instance:TestPackage.Basics3@71b1176b]" started-at="2022-08-11T08:53:35 IST" name="MobileLogincarLoan" finished-at="2022-08-11T08:53:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogincarLoan -->
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:TestPackage.Basics3@71b1176b]" started-at="2022-08-11T08:53:35 IST" name="beforeevery" finished-at="2022-08-11T08:53:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method is-config="true" signature="afterevery()[pri:0, instance:TestPackage.Basics3@71b1176b]" started-at="2022-08-11T08:53:35 IST" name="afterevery" finished-at="2022-08-11T08:53:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method signature="MobilesignoutcarLoan(java.lang.String,java.lang.String)[pri:0, instance:TestPackage.Basics3@71b1176b]" started-at="2022-08-11T08:53:35 IST" name="MobilesignoutcarLoan" data-provider="getData" finished-at="2022-08-11T08:53:35 IST" duration-ms="4" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at TestPackage.Basics3.MobilesignoutcarLoan(Basics3.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutcarLoan -->
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:TestPackage.Basics3@71b1176b]" started-at="2022-08-11T08:53:35 IST" name="beforeevery" finished-at="2022-08-11T08:53:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method is-config="true" signature="afterevery()[pri:0, instance:TestPackage.Basics3@71b1176b]" started-at="2022-08-11T08:53:35 IST" name="afterevery" finished-at="2022-08-11T08:53:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:TestPackage.Basics3@71b1176b]" started-at="2022-08-11T08:53:35 IST" name="beforeevery" finished-at="2022-08-11T08:53:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method signature="MobilesignoutcarLoan(java.lang.String,java.lang.String)[pri:0, instance:TestPackage.Basics3@71b1176b]" started-at="2022-08-11T08:53:35 IST" name="MobilesignoutcarLoan" data-provider="getData" finished-at="2022-08-11T08:53:35 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at TestPackage.Basics3.MobilesignoutcarLoan(Basics3.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutcarLoan -->
+        <test-method is-config="true" signature="afterevery()[pri:0, instance:TestPackage.Basics3@71b1176b]" started-at="2022-08-11T08:53:35 IST" name="afterevery" finished-at="2022-08-11T08:53:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:TestPackage.Basics3@71b1176b]" started-at="2022-08-11T08:53:35 IST" name="beforeevery" finished-at="2022-08-11T08:53:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method signature="MobilesignoutcarLoan(java.lang.String,java.lang.String)[pri:0, instance:TestPackage.Basics3@71b1176b]" started-at="2022-08-11T08:53:35 IST" name="MobilesignoutcarLoan" data-provider="getData" finished-at="2022-08-11T08:53:35 IST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at TestPackage.Basics3.MobilesignoutcarLoan(Basics3.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutcarLoan -->
+        <test-method is-config="true" signature="afterevery()[pri:0, instance:TestPackage.Basics3@71b1176b]" started-at="2022-08-11T08:53:35 IST" name="afterevery" finished-at="2022-08-11T08:53:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method is-config="true" signature="afteclas()[pri:0, instance:TestPackage.Basics3@71b1176b]" started-at="2022-08-11T08:53:35 IST" name="afteclas" finished-at="2022-08-11T08:53:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afteclas -->
+      </class> <!-- TestPackage.Basics3 -->
+      <class name="TestPackage.Basics1">
+        <test-method is-config="true" signature="afsuite()[pri:0, instance:TestPackage.Basics1@197d671]" started-at="2022-08-11T08:53:35 IST" name="afsuite" finished-at="2022-08-11T08:53:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afsuite -->
+      </class> <!-- TestPackage.Basics1 -->
+    </test> <!-- Basics3only -->
+  </suite> <!-- Suite -->
+</testng-results>
