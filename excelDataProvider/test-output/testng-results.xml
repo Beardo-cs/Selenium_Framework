@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-02T21:05:25 IST" name="Default suite" finished-at="2022-11-02T21:05:25 IST" duration-ms="387">
+    <groups>
+    </groups>
+    <test started-at="2022-11-02T21:05:25 IST" name="Default test" finished-at="2022-11-02T21:05:25 IST" duration-ms="387">
+      <class name="dataDriven.excelDataProvider.dataProvider">
+        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDriven.excelDataProvider.dataProvider@659a969b]" started-at="2022-11-02T21:05:25 IST" name="testCaseData" data-provider="driveTest" finished-at="2022-11-02T21:05:25 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[text]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseData -->
+        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDriven.excelDataProvider.dataProvider@659a969b]" started-at="2022-11-02T21:05:25 IST" name="testCaseData" data-provider="driveTest" finished-at="2022-11-02T21:05:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bye]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mahi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseData -->
+        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDriven.excelDataProvider.dataProvider@659a969b]" started-at="2022-11-02T21:05:25 IST" name="testCaseData" data-provider="driveTest" finished-at="2022-11-02T21:05:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[welcome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Govind]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseData -->
+      </class> <!-- dataDriven.excelDataProvider.dataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
