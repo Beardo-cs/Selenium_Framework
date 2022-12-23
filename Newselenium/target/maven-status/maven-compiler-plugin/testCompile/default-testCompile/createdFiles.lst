@@ -1,0 +1,11 @@
+NewFramework/tests/StandAloneTest.class
+NewFramework/TestComponents/BaseTest.class
+NewFramework/tests/ErrorValidationTest.class
+NewFramework/TestComponents/Retry.class
+Newselenium/stepDefinition/StepDefinitionImpl.class
+Newselenium/data/DataReader$1.class
+Newselenium/data/DataReader.class
+Cucumber/TestNGTestRunner.class
+NewFramework/tests/SubmitOrderTest.class
+NewFramework/TestComponents/BaseTest$1.class
+NewFramework/TestComponents/Listeners.class

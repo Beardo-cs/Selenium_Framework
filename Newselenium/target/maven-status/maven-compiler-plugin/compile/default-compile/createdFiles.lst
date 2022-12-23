@@ -1,0 +1,8 @@
+Newselenium/AbstractComponents/AbstractComponents.class
+NewFramework/pageObjects/ProductCatalogue.class
+NewFramework/pageObjects/LandingPage.class
+NewFramework/pageObjects/CartPage.class
+NewFramework/pageObjects/CheckoutPage.class
+NewFramework/pageObjects/OrderPage.class
+Newselenium/resources/ExtentReporterNG.class
+NewFramework/pageObjects/ConfirmationPage.class
